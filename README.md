@@ -3,10 +3,10 @@ For the manuscript "Group Visualization of Class-Discriminative Features"
 
 ## Introduction
 A tensorflow based implementation of the method of Group Visualization of Class-Discriminative Features.
-You would better to install necessary libraries lised in the "requirement.txt" file.
+You would better to install necessary libraries listed in the "requirement.txt" file at first.
 
 ## How to use
-1. Install all necessary library and clone this rep.
+1. Install all necessary library and clone/download this repository.
 
 2. Run "GroupClassDiscVis.py" and the results of the 1st 3rd experiments in the paper could be generated.
 
