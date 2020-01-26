@@ -1,0 +1,18 @@
+golden retriever_adv_dog_cat224_0.jpg is the original image
+('golden retriever', 'Labrador retriever', 'laptop', 'kuvasz', 'meerkat', 'quilt', 'Brittany spaniel', 'Egyptian cat', 'tabby', 'tiger cat')  'Chihuahua'
+[9.264907  7.7493954 7.145786  6.9974036 6.836211  6.8216753 6.705721
+ 6.658968  6.5246735 6.0784154]  5.564751
+
+
+golden retriever_adv_dog_cat224_1.jpg is the adversarial image (FGSM)
+('quilt', 'Egyptian cat', 'tabby', 'laptop', 'tiger cat', 'studio couch', 'meerkat', 'mouse', 'Chihuahua', 'lynx')
+[7.7935605 7.782679  7.377719  7.156705  6.9672146 6.9605107 6.691907
+ 6.506335  6.450272  5.864045 ]
+
+
+jeep_N_adversial_sample_opt0.jpg (adversarial patch)
+('jeep', 'half track', 'snowplow', 'amphibian', 'pickup', 'beach wagon', 'Model T', 'car wheel', 'golfcart', 'tow truck')
+[38.994812 18.895945 18.124062 17.729094 17.276897 15.300404 14.563856
+ 14.474279 14.248684 13.610701]
+'Egyptian cat' 0.69 'golden retriever' 6.72
+debug finished

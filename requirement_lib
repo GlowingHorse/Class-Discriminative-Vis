@@ -1,0 +1,13 @@
+decorator                     4.4.0                  
+deeplift                      0.6.9.0           
+lucid                         0.3.8     
+matplotlib                    3.0.3                  
+opencv-python                 4.1.0.25               
+scikit-image                  0.15.0                 
+scikit-learn                  0.20.3                 
+scipy                         1.2.1                  
+tabulate                      0.8.6                  
+tensorboard                   1.13.1                 
+tensorflow-estimator          1.13.0                 
+tensorflow-gpu                1.13.1                 
+tensorflow-probability        0.7.0                  
