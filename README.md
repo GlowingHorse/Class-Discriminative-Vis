@@ -8,18 +8,18 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 ## How to use
 1. Install all necessary library and clone/download this repository.
 
-2. Run "GroupClassDiscVis.py" and the results of the 1st and 3rd experiments in the paper could be generated.
+2. Run *GroupClassDiscVis.py* and the results of the 1st and 3rd experiments in the paper could be generated.
 
-3. With the attribution computing method, you can test other layers, classes, and images. The grouping methods could be changed with the clustering methods provided by the library ["sklearn"](https://scikit-learn.org/stable/modules/clustering.html). We also provide a simple class in the file ./utils/utils.py, it should be easy to extended for trying other grouping features methods.
+3. With the attribution computing method, you can test other layers, classes, and images. The grouping methods could be changed with the clustering methods provided by the library [*sklearn*](https://scikit-learn.org/stable/modules/clustering.html). We also provide a simple class in the file *./utils/utils.py*, it should be easy to extended for trying other grouping features methods.
 
 4. Some description for code in main dir. 
    * *data* is for placing testing images, for GoogleNet, input size is 224. The two matlab files are used for mosaic figures in the paper.
-   * *dog_cat224* is the dir named by the image name for saving generated visual results and computed attribution results (those .txt files). 
+   * *dog_cat224* is the dir named by the image name for saving generated visual results and computed attribution results (those *.txt* files). 
    * *utils* is for main codes to compute attribution, group features, loss function, and some activation maps handling operators.
 
 5. The codes for generating adversarial samples and experiment results about these samples will be uploaded later.
 
-6. When you try different networks that are provided in the library "lucid", the transform methods and some random image preconditioning settings should be changed accordingly for good visualization. We suggest to read more about activation maximization methods using the codes of [lucid](https://github.com/tensorflow/lucid). They provided many useful loss functions, regularizations, and preconditioning methods for feature visualization.
+6. When you try different networks that are provided in the library *lucid*, the transform methods and some random image preconditioning settings should be changed accordingly for good visualization. We suggest to read more about activation maximization methods using the codes of [*lucid*](https://github.com/tensorflow/lucid). They provided many useful loss functions, regularizations, and preconditioning methods for feature visualization.
 
 
 ## Try it
