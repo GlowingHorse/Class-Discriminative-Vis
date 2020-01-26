@@ -19,7 +19,7 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 
 5. The codes for generating adversarial samples and experiment results about these samples will be uploaded later.
 
-6. When you try different networks that are provided in the library "lucid", the transform methods and some random image preconditioning settings should be changed for a good visualization. We suggest to read more information about activation maximization methods from the codes of the "lucid" library. They provided many useful loss functions, regularizations, and preconditioning methods.
+6. When you try different networks that are provided in the library "lucid", the transform methods and some random image preconditioning settings should be changed accordingly for good visualization. We suggest to read more information about activation maximization methods from the codes of the "lucid" library. They provided many useful loss functions, regularizations, and preconditioning methods for feature visualization.
 
 
 ## Try it
