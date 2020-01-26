@@ -8,7 +8,7 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 ## How to use
 1. Install all necessary library and clone/download this repository.
 
-2. Run "GroupClassDiscVis.py" and the results of the 1st 3rd experiments in the paper could be generated.
+2. Run "GroupClassDiscVis.py" and the results of the 1st and 3rd experiments in the paper could be generated.
 
 3. With the attribution computing method, you can test other layers, classes, and images. The grouping methods could be changed with the clustering methods provided by the library ["sklearn"](https://scikit-learn.org/stable/modules/clustering.html). We also provide a simple class in the file ./utils/utils.py, it should be easy to extended for trying other grouping features methods.
 
