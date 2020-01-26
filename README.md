@@ -23,4 +23,5 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 
 
 ## Try it
-1. It will be fun to test different images for analyzing the network.
+1. It will be fun to visualize what features are extracted from different objects in the image.
+2. If you have any questions, please contact with us or comment in [*Issues*](https://github.com/GlowingHorse/class-discriminative-vis/issues).
