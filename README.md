@@ -17,7 +17,7 @@ You would better to install necessary libraries listed in the "requirement.txt" 
    * *dog_cat224* is the dir named by the image name for saving generated visual results and computed attribution results (those *.txt* files). 
    * *utils* is for main codes to compute attribution, group features, loss function, and some activation maps handling operators.
 
-5. The codes for generating adversarial samples and experiment results about these samples will be uploaded later.
+5. The codes for generating adversarial samples and experiment results about these samples will be uploaded later. We also plan to rearrange the structure of the codes for easier reading further.
 
 6. When you try different networks that are provided in the library *lucid*, the transform methods and some random image preconditioning settings should be changed accordingly for good visualization. We suggest to read more about activation maximization methods using the codes of [*lucid*](https://github.com/tensorflow/lucid). They provided many useful loss functions, regularizations, and preconditioning methods for feature visualization.
 
