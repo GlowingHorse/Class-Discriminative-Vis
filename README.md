@@ -1,4 +1,4 @@
-# class-discriminative-vis for CNNs
+# Grouped class discriminative feature visualization
 For the manuscript "Group Visualization of Class-Discriminative Features"
 
 ## Introduction
