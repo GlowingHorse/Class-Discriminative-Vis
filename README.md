@@ -10,7 +10,7 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 
 2. Run "GroupClassDiscVis.py" and the results of the 1st 3rd experiments in the paper could be generated.
 
-3. With the attribution computing method, you can test other layers, classes, and images.
+3. With the attribution computing method, you can test other layers, classes, and images. The grouping methods could be changed with the clustering methods provided by the library ["sklearn"](https://scikit-learn.org/stable/modules/clustering.html). We also provide a simple class in the file ./utils/utils.py, it should be easy to extended for trying other grouping features methods.
 
 4. Some description for code in main dir. 
    * *data* is for placing testing images, for GoogleNet, input size is 224. The two matlab files are used for mosaic figures in the paper.
