@@ -13,7 +13,7 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 3. With the attribution computing method, you can test other layers, classes, and images.
 
 4. Some description for code in main dir. 
-   * *data* is for placing testing images, for GoogleNet, input size is 224.
+   * *data* is for placing testing images, for GoogleNet, input size is 224. The two matlab files are used for mosaic figures in the paper.
    * *dog_cat224* is the dir named by the image name for saving generated visual results and computed attribution results (those .txt files). 
    * *utils* is for main codes to compute attribution, group features, loss function, and some activation maps handling operators.
 
