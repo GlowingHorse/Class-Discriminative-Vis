@@ -19,7 +19,9 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 
 5. The codes for generating adversarial samples and experiment results about these samples will be uploaded later. We also plan to rearrange the structure of the codes for easier reading further.
 
-6. When you try different networks that are provided in the library *lucid*, the transform methods and some random image preconditioning settings should be changed accordingly for good visualization. We suggest to read more about activation maximization methods using the codes of [*lucid*](https://github.com/tensorflow/lucid). They provided many useful loss functions, regularizations, and preconditioning methods for feature visualization.
+6. You could compare **our method** with the visualization method without class-discrimination in *lucid* by running the file *Comparison_with__Building_Blocks_of_Interpretability_.ipynb* in **colab** (a good tool provided by Google). You will find some regions will be misunderstood without class-discrimination, e.g., the region of the **"golden retriever"** head attributes negatively to both the "golden retriever" and "Egyptian cat" classes. Because some other dog's features maybe contribute to the dog more than the right "golden retriever" features as stated in **experiment 1 of our manuscript**. And if we don't detect these uncorrelated features but visualize them directly, the visualization may lead our analysis into some misunderstandings.
+
+7. When you try different networks that are provided in the library *lucid*, the transform methods and some random image preconditioning settings should be changed accordingly for good visualization. We suggest to read more about activation maximization methods using the codes of [*lucid*](https://github.com/tensorflow/lucid). They provided many useful loss functions, regularizations, and preconditioning methods for feature visualization.
 
 
 ## Try it
