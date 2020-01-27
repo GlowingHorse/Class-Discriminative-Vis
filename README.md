@@ -26,4 +26,4 @@ You would better to install necessary libraries listed in the "requirement.txt" 
 
 ## Try it
 1. It will be fun to visualize what features are extracted from different objects in the image.
-2. If you have any question, please contact with us by email or comment in [*Issues*](https://github.com/GlowingHorse/class-discriminative-vis/issues).
+2. If you have any question, please contact with us by email or comment in [**Issues**](https://github.com/GlowingHorse/class-discriminative-vis/issues).
