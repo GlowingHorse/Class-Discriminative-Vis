@@ -2,18 +2,18 @@
 For the manuscript "Group Visualization of Class-Discriminative Features"
 
 ## Introduction
-A tensorflow based implementation of the method of Group Visualization of Class-Discriminative Features.
+A `tensorflow` based implementation of the method of Group Visualization of Class-Discriminative Features.
 You would better to install necessary libraries listed in the "requirement.txt" file at first.
 
 ## How to use
 1. Install all necessary library and clone/download this repository.
 
-2. Run *GroupClassDiscVis.py* and the results of the 1st and 3rd experiments in the paper could be generated.
+2. Run *GroupClassDiscVis.py* and the results of the 1st and 3rd experiments in the manuscript could be generated.
 
-3. With the attribution computing method, you can test other layers, classes, and images. The grouping methods could be changed with the clustering methods provided by the library [*sklearn*](https://scikit-learn.org/stable/modules/clustering.html). We also provide two simple *class*es in the file *./utils/utils.py*, it should be easy to extended for trying other grouping features methods like clustering and matrix decomposing.
+3. With the attribution computing method, you can test other layers, classes, and images. The grouping methods could be changed with the clustering methods provided by the library [`sklearn`](https://scikit-learn.org/stable/modules/clustering.html). We also provide two simple *class*es in the file *./utils/utils.py*, it should be easy to extended for trying other grouping features methods like clustering and matrix decomposing.
 
 4. Some description for code in main dir. 
-   * *data* is for placing testing images, for GoogleNet, input size is 224. The two matlab files are used for mosaic figures in the paper.
+   * *data* is for placing testing images, for **GoogleNet**, input size is **224**. The two `matlab` files are used for mosaic figures in the paper.
    * *dog_cat224* is the dir named by the image name for saving generated visual results and computed attribution results (those *.txt* files). 
    * *utils* is for main codes to compute attribution, group features, loss function, and some activation maps handling operators.
 
