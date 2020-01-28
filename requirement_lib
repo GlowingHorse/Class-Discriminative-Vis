@@ -10,3 +10,9 @@ tensorboard                   1.13.1
 tensorflow-estimator          1.13.0                 
 tensorflow-gpu                1.13.1                 
 tensorflow-probability        0.7.0                  
+
+It's better use the same version of tensorflow-gpu. 
+Because I found the higher version sometimes failed with weird errors.
+
+lucid is a very useful visualization library, you would like to install the newest version of it for more functions. 
+But only the version supports tensorflow-gpu 1.x.
