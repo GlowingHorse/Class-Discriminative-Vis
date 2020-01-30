@@ -1,4 +1,7 @@
 function im2 = generate_spliced_img(imgPath)
+% download natsortfiles library before using the code.
+% https://ww2.mathworks.cn/matlabcentral/fileexchange/47434-natural-order-filename-sort
+% unzip it in your directory.
 addpath('natsortfiles');
 imgDir  = [ dir([imgPath '*.png']); dir([imgPath '*.jpeg']); dir([imgPath '*.jpg'])];
 % S = dir(fullfile(D,'*.txt')); % get list of files in directory
