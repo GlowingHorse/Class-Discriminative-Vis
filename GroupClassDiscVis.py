@@ -63,11 +63,11 @@ def main():
 
   # whether load the pre-computed feature attribution
   flag_read_attr = True
-  # Shapley value computing method, "Shap" iter: 2**8 or "IGSG" iter: 300
+  # Shapley value computing method, "Shap" iter: 2**10 or "IGSG" iter: 100
   flag1 = "Shap"
   # iteration times for computing Shapley values, Note sampling method takes a lot of time
   # We suggest use IG at first
-  iter_num = 2**8
+  iter_num = 2*10
   # pos_flag=1 means only compute positive Shapley
   # = 2 means consider both positive and negative Shapley
   pos_flag = 2
