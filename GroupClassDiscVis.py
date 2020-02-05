@@ -108,7 +108,6 @@ def neuron_groups(img_name, layers, model, attr_classes, factorization_methods,
       continue
 
     print_result_from_logit(logit_list, labels)
-    # 这个循环是积极影响和消极影响两个的循环
     for i_pos_neg in range(pos_flag):
       AM_list = AM_list_L[i_pos_neg]
       kept_channel_list = kept_channel_list_L[i_pos_neg]
@@ -141,18 +140,15 @@ def neuron_groups(img_name, layers, model, attr_classes, factorization_methods,
                                                      channel_attr, i_pos_neg)
 
           # If the attribution is negative, channel_shap should be multiply -1
-          # 如果是负贡献的情况 要把channel_shap乘-1
           if i_pos_neg > 0:
             channel_shap = channel_shap * -1
 
           # Sorting based on sum of Shapley values
-          # 按照shap值之和进行排序
           ns_sorted = get_sort_groups_with_shap_scores(channel_shap)
           every_group_attr_sorted, spatial_factors, channel_shap, n_groups =\
             sort_groups_features(ns_sorted, spatial_factors, channel_shap, n_groups)
 
           no_slash_layer_name = ''.join(layer.split('/'))
-          # 根据分解方法创建文件夹然后保存图像和txt文件
           save_directory = create_factorization_dir(root_directory, factorization_method,
                                                     no_slash_layer_name, reverse_suffix,
                                                     n_groups)
