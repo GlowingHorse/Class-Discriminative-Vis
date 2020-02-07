@@ -144,7 +144,7 @@ def compute_igsg(img, model, attr_class, layers,
                     iter_num=100, SG_path=False,
                     labels=None, save_directory=None):
   """
-  Using IG method to compute feature attributions
+  Using Aumann Shapley values as feature attributions
   """
   with tf.Graph().as_default(), tf.Session() as sess, gradient_override_map({}):
     # img = tf.image.resize_image_with_crop_or_pad(img, model.image_shape[0], model.image_shape[0])
@@ -298,7 +298,7 @@ def compute_all_am_igsg(img, model, attr_class, layers,
                         iter_num=2 ** 8, SG_path=False,
                         labels=None, save_directory=None):
   """
-  Using IG method to compute feature attributions
+  Using Aumann Shapley values as feature attributions
   Return all attributions and AM not just positive or negative ones
   """
   with tf.Graph().as_default(), tf.Session() as sess, gradient_override_map({}):
