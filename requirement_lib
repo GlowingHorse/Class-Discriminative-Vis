@@ -13,6 +13,4 @@ tensorflow-probability        0.7.0
 
 It's better use the same version of tensorflow-gpu. 
 Because I found the higher version sometimes failed with weird errors.
-
-lucid is a very useful visualization library, you would like to install the newest version of it for more functions. 
-But only the version supports tensorflow-gpu 1.x.
+Our code does not support tf 2.0 for now.
