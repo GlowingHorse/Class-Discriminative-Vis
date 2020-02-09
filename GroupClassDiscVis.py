@@ -44,7 +44,6 @@ def main():
   #                          'LatentDirichletAllocation', 'MiniBatchDictionaryLearning',
   #                          'MiniBatchSparsePCA', 'NMF', 'PCA', 'SparsePCA',
   #                          'TruncatedSVD']
-  # factorization_methods = ['NMF', 'LatentDirichletAllocation']
   # factorization_methods = ['KernelPCA', 'SparseCoder', 'dict_learning', 'dict_learning_online', 'fastica']
 
   layers = ["mixed4d"]
