@@ -17,7 +17,7 @@ You would better to install necessary libraries listed in the "requirement.txt" 
    * *dog_cat224* is the dir named by the image name for saving generated visual results and computed attribution results (those *.txt* files). 
    * *utils* is for main codes to compute attribution, group features, loss function, and some activation maps handling operators.
 
-5. The codes for generating adversarial samples and experiment results about these samples will be uploaded later. We also plan to rearrange the structure of the codes for easier reading further.
+5. The codes for generating adversarial samples will be uploaded later. We also plan to rearrange the structure of the codes for easier reading further.
 
 6. You could compare **our method** with the visualization method of `lucid` without detecting class-discriminative before visualizing by running the file [*Comparison_with_Building_Blocks_of_Interpretability_.ipynb*](https://colab.research.google.com/github/GlowingHorse/class-discriminative-vis/blob/master/Comparison_with_%22Building_Blocks_of_Interpretability%22.ipynb) in colab (a good tool provided by Google). You will find some regions will be misunderstood without class-discrimination, for example, the region of the "golden retriever" head attributes negatively to both the "golden retriever" and "Egyptian cat" classes. Because some other dog's features maybe contribute to the dog more than the right "golden retriever" features as stated in the 1st experiment of our manuscript. And if we don't detect these uncorrelated features but visualize them directly, the visualization may lead our analysis into some misunderstandings.
 
