@@ -1,5 +1,5 @@
 # Grouped class discriminative feature visualization
-For the manuscript "Group Visualization of Class-Discriminative Features"
+For the paper "Group Visualization of Class-Discriminative Features"
 
 ## Introduction
 A `tensorflow` based implementation of the method of Group Visualization of Class-Discriminative Features.
